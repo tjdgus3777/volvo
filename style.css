@@ -1,0 +1,79 @@
+* { margin: 0; padding: 0; list-style: none; font-family: 'NanumSquare', sans-serif; }
+body,html {height: 100%;} 
+#main { width: 100%; height: 100%; background:url(images/bg_xc40.jpg) center no-repeat ;
+background-size: cover;}
+header { width: 1200px; height: 60px;  margin: auto;}    
+#logo { width: 54px; height: 54px; float: left; margin-top: 3px;}
+#menu {  height: 54px; float: right; margin-top: 3px;}
+#menu>li {  float: left; color: #fff; line-height: 54px; font-weight: 800; margin-left: 30px;  }  
+#main_text { width: 1000px; height: 200px;  margin: auto;
+margin-top: 100px; }    
+#main_text h4 { color: #fff; font-size: 45px; font-weight: 100; line-height: 80px;}
+#section1 { width: 1200px; margin: auto; margin-top: 100px; }
+#section1 h2 { text-align: center; }
+#section1 h3 { text-align: center; line-height: 80px; font-size: 25px; font-weight: 100;}
+#section_box1 {width: 1200px; height: 675px; margin: auto; background: url(images/sec1_vod1.jpg);
+position: relative; }     
+#section_box2 { width: 1200px; height: 220px; background: url(images/sec1_banner1.jpg); 
+padding: 40px; box-sizing: border-box;}
+#section_box1 img { position: absolute; left: 0;top: 0;right: 0;bottom: 0; margin:auto;
+transition: 0.5s; }
+#section_box1 img:hover { transform: scale(1.5); }
+#section1 button { opacity: 0.5; transition:  0.5s; }
+#section1 button:hover { opacity: 1; }
+#section_box2 p { color: #fff; font-size: 30px; font-weight: 100;}
+#section_box2 button { background-color: transparent; border: none; margin-top: 15px; 
+}
+#section2 {  width: 1200px; height: 880px;  margin: auto; margin-top: 50px; transition: 0.5s; text-align: center; }
+#section3 { width: 1200px; margin: auto; margin-top: 100px; }
+#section3 h2 { text-align: center; padding: 20px; }
+#section3 h3 { text-align: center; font-size: 25px; font-weight: 100; margin-bottom: 20px;}
+#section3_box1 { width: 1200px; height: 675px; margin: auto; background: url(images/sec4_vod1.jpg); 
+position: relative; }
+#section3_box1 img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;
+transition: 0.5s;}
+#section3_box1 img:hover { transform:scale(1.5); }
+
+#section2 h2 { text-align: center;  }
+#section2 h2 img { margin-top: 30px; }
+#section2 h3 { text-align: center;  margin-top: 20px; margin-bottom: 30px; font-weight: 100; font-size: 25px;}
+#section2_box { overflow: hidden; }
+#section2_box li { float: left; position: relative; overflow: hidden;}
+#section2_box li img { vertical-align: top; transition: 0.5s; }
+#section2_box li:hover img { transform: scale(1.2);}
+#section2_box h5 { position: absolute; left: 25px;  bottom: 70px;  color: #fff; font-weight: 1000; font-size: 16px;}
+#section2_box h4 { position: absolute; left: 25px;  bottom: 35px;   color: #fff; font-size: 25px;
+font-weight: 100;}
+#section2 button { background-color: transparent; border:none ; margin-top: 40px; clear: both;
+  opacity: 0.5; transition: 0.5s; }
+  #section2 button:hover {opacity: 1;}
+#section4 { width: 1200px; height: 700px;   margin: auto;
+text-align: center; margin-top: 83px;  }
+#section4 h3 { font-size: 25px; font-weight: 100;margin-top: 20px; }
+#section4 ul { overflow: hidden;  }
+#section4 ul li { width: 360px; height: 350px; float: left; margin: 40px 0;  margin-right: 60px;  }
+#section4 ul li:last-child { margin-right: 0; }
+#section4 h5 { font-size: 15px; font-weight: 800; text-decoration: line-through; }
+#section4 h4 { font-size: 17px; font-weight: 700; text-decoration: underline; }
+#section4 h6 { font-size: 12px; font-weight: 700;  }
+#section4 button { background-color: transparent; border: none; margin-top: 46px;
+opacity: 0.5; transition: 0.5s; }
+#section4 button:hover { opacity: 1; }
+#section5 { width: 1200px; height: 920px; margin: auto;
+     text-align: center; position: relative;}
+#section5 h2 { margin-top: 80px; }
+#section5 h3 { margin-top: 43px; }
+#section5 div { margin-top: 45px; }
+#section5 button { transition: 0.5s; opacity: 0.5; }
+#section5 #b1 { background-color: transparent; border:none ; position: absolute; left: 20px; top: 480px; }
+#section5 #b2 { background-color: transparent; border:none ; position: absolute; right: 20px; top: 480px; 
+}
+#section5 #b1:hover { transform:scale(1.2) ; opacity: 1; }
+#section5 #b2:hover { transform:scale(1.2) ; opacity: 1; }
+footer { width: 100%; height: 150px; background-color: #ccc; margin: auto; border-bottom: 3px solid #fff; }
+#footer_box1 { width: 1270px; height: 150px;  margin: auto;}
+#footer_textbox {  padding-top: 40px; padding-left: 70px; float: left; }
+#footer_textbox h4 { font-size: 12px; }
+#footer_textbox h5 { font-size: 8px; }
+#footer_box1 ul  { float: right; margin-top: 60px; }
+#footer_box1 ul li { float: left; margin-right: 20px; }
